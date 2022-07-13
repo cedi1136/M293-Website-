@@ -81,7 +81,7 @@ h1 {
 /*.Meals img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 400px;
+    width: 300px;
     height: auto;
     margin: 20px;
     padding: 20px;
