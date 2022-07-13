@@ -59,7 +59,7 @@ h1 {
     height: 85vh;
     justify-content: center;
     align-items: center;
-    background-image: url("../Gerichte-aus-aller-Welt.webp");
+    background-image: url("/Gerichte-aus-aller-Welt.webp");
     background-size: cover;
 }
 
