@@ -89,7 +89,7 @@ h1 {
 }*/
 .Meals img {
     text-align: center;
-    width: 400px;
+    width: 300px;
     height: auto;
     object-fit: cover;
     cursor: pointer;
