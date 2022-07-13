@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.btn_dark {
+    display: inline-block;
+    background-color: #212121;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.btn_dark:hover {
+    background-color: #fff;
+    color: #212121;
+}
+
+.margin_top {
+    margin-top: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #212121;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 13px;
+}
+
+.homesection {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Gerichte-aus-aller-Welt.webp");
+    background-size: cover;
+}
+
+.hometext h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.hometext {
+    color: #fff;
+    text-align: center;
+
+}
+
+.hometext p {
+    letter-spacing: 5px;
+}
+
+/*.Meals img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    padding: 20px;
+
+}*/
+.Meals img {
+    text-align: center;
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.Meals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    background-color: #212121;
+}
+
+@media screen and (max-width: 1799px) {
+    .Meals {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media screen and (max-width: 1167px) {
+    .Meals {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+.Meals img:hover {
+    transform: scale(1.04);
+}
+
+
+.btn_meals {
+    display: inline-block;
+    background-color: #212121;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.btn_meals:hover {
+    background-color: #fff;
+    color: #212121;
+}
+
+.Kontaktstyle {
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    width: 400px;
+    padding: 20px;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0,
+    2s ease;
